@@ -21,7 +21,7 @@ def play_or_nah():
     # if they do not enter y or n this will ask them to answer again
     else:
         print('That is not a valid response ')
-        return play_or_nah()
+        return True
 
 
 def play_game():
